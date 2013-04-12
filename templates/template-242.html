@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>{META_TITLE}</title> 
+        <meta name="description" content="{META_DESC}" />
+        <meta name="keywords" content="{META_KEYS}" />
+        <link rel="canonical" href="http://{SITE_URL}/{PAGE_URI}"/>  
+        <link rel="author" href="https://plus.google.com/103593236171537530782/posts"/>
+
+        <meta charset="utf-8">
+
+        <meta name="p:domain_verify" content="2efc0cf83cbef1a1b8ba8e5331bae809" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="{ASSET_PATH}/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{ASSET_PATH}/assets/prettyPhoto/css/prettyPhoto.css">
+        <link rel="stylesheet" href="{ASSET_PATH}/assets/css/flexslider.css">
+        <link rel="stylesheet" href="{ASSET_PATH}/assets/css/font-awesome.css">
+        <link rel="stylesheet" href="{ASSET_PATH}/assets/css/style.css">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="{ASSET_PATH}/assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{ASSET_PATH}/assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{ASSET_PATH}/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{ASSET_PATH}/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="{ASSET_PATH}/assets/ico/apple-touch-icon-57-precomposed.png">
+
+        <script type="text/javascript" src="http://w.sharethis.com/gallery/shareegg/shareegg.js"></script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options({publisher: "ur-fc528006-f8ce-4ed8-e53c-b208cc5a234d", doNotHash: false, doNotCopy: false, hashAddressBar: false, onhover:false});</script>
+        
+        <script type="text/javascript">var switchTo5x=true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+
+
+    </head>
+
+    <body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39676587-1', 'startupfront.org');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=576949698983728";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src=
+"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" 
+type="text/javascript"></script>
+
+
+
+        <!-- Header -->
+        <div class="container">
+            <div class="header row">
+                <div class="span12">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                            <h1>
+                                <a class="brand" href="/">{SITE_NAME}</a>
+                            </h1>
+                            <div class="nav-collapse collapse">
+                                {POSITION-headernav}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--
+Page Title
+-->
+        
+<div class="page-title">            
+    
+    <div class="container">                
+        
+        <div class="row">                    
+            
+            <div class="span12"><span style="font-style: italic;">                    
+                    <h2>{SECTION_NAME}:  </h2></span>                                        
+                        <p></p>
+                        <p>{META_DESC}</p>
+            </div>                
+        </div>            
+    </div>        </div>        
+<!--
+About Us Text
+-->
+
+<div class="about-us container">            
+    
+    <div class="row">                
+        
+        <div class="span9">                
+            {SECTION_CONTENT}
+        <hr />
+                    {ARTICLES}         
+             
+            <article>                
+            <a href="/{ARTICLE_URL}"><img src="{ASSET_PATH}/images/{ARTICLE_URL}.jpg" /></a>    
+                <a href="/{ARTICLE_URL}">
+                    <h2>{ARTICLE_NAME}</h2></a>    
+                
+                <p>{ARTICLE_DAY} {ARTICLE_MONTH}, {ARTICLE_YEAR}. 
+                    <fb:comments-count href="http://{SITE_URL}/{ARTICLE_URL}"></fb:comments-count> Comments.
+                </p>    
+                
+                <p class="info-responsive">{ARTICLE_DAY} {ARTICLE_MONTH}, {ARTICLE_YEAR}</p>    
+                
+                <div class="heading_line"><span class="overlay"></span></div>   
+          </article>    
+        {/ARTICLES}
+        </div>            
+        
+        <div class="span3">            
+            {POSITION-sidebar}
+        </div>        
+    </div>   
+</div>
+<br />
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="widget span3">
+                        {POSITION-footer1}
+                    </div>
+                    <div class="widget span3">
+                        {POSITION-footer2}
+                    </div>
+                    <div class="widget span3fb">
+                        {POSITION-footer3}
+                    </div>
+                    <div class="widget span3">
+                        <h4 id="contact">Contact Us</h4>
+                        {POSITION-footer4}
+                    </div>
+                </div>
+                <div class="footer-border"></div>
+                <div class="row">
+                    <div class="copyright span4">
+                        <p>Copyright {DATE-YYYY} Startup Front - All rights reserved. <a href="http://www.bakedfinn.com" target="_blank">BakedFinn - Web Design, Development & Digital Marketing</a> support.<br /> 
+                        Photo credits / copyright:  <a href="/edward-byrne">Edward Byrne</a> (unless otherwise noted)<br />
+                        <a href="/privacy-policy">Privacy Policy</a></p>
+                    </div>
+                    <div class="social span8">
+                        <a target="_blank" class="facebook" href="https://www.facebook.com/startupfront?fref=ts"></a>
+                        <a target="_blank"  class="dribbble" href="https://plus.google.com/112816237450487064604/posts"></a>
+                        <a target="_blank"  class="twitter" href="https://twitter.com/StartupFront"></a>
+                        <a target="_blank"  class="pinterest" href="http://pinterest.com/startupfront/"></a>
+                        <p>Find us on <a href="https://plus.google.com/112816237450487064604" rel="publisher">Google+</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="{ASSET_PATH}/assets/js/jquery-1.8.2.min.js"></script>
+        <script src="{ASSET_PATH}/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="{ASSET_PATH}/assets/js/jquery.flexslider.js"></script>
+        <script src="{ASSET_PATH}/assets/js/jquery.tweet.js"></script>
+        <script src="{ASSET_PATH}/assets/js/jflickrfeed.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="{ASSET_PATH}/assets/js/jquery.ui.map.min.js"></script>
+        <script src="{ASSET_PATH}/assets/js/jquery.quicksand.js"></script>
+        <script src="{ASSET_PATH}/assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+        <script src="{ASSET_PATH}/assets/js/scripts.js"></script>
+        <script type="text/javascript"> FB.init("364768130208266", "<path from web root>/xd_receiver.htm");</script>
+  
+        <script type="text/javascript">stLight.options({publisher: "ur-6901b55a-6e11-4c29-2b15-415f90c8d42b", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+        <script>var options={ "publisher": "ur-6901b55a-6e11-4c29-2b15-415f90c8d42b", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["email", "googleplus", "facebook", "twitter", "linkedin", "reddit", "tumblr", "pinterest", "sharethis"]}}; var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+        </script>
+    </body>
+
+</html>
+

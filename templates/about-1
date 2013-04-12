@@ -1,0 +1,63 @@
+        <!-- Page Title -->
+        <div class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <i class="icon-user page-title-icon"></i>
+                        <h2>About Us /</h2>
+                        <p>Below you can find more information about our company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Us Text -->
+        <div class="about-us container">
+            <div class="row">
+                <div class="about-us-text span12">
+                    <h4>About Andia</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt.</p>
+                    <h4>Our Mission</h4>
+                    <p>Lorem ipsum dolor sit amet, <span class="violet">consectetur adipisicing</span> elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod <span class="violet">tempor incididunt</span> ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <h4>Why Choose Us</h4>
+                    <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis <span class="violet">nostrud exerci</span> tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials container">
+            <div class="testimonials-title">
+                <h3>Testimonials</h3>
+            </div>
+            <div class="row">
+                <div class="testimonial-list span12">
+                    <div class="tabbable tabs-below">
+                        <div class="tab-content">
+                         <div class="tab-pane active" id="A">
+                                <img src="{ASSET_PATH}/assets/img/testimonials/steve-dalton-100.jpg" width="75px" title="" alt="">
+                                <p>"We tried for years to get the community galvanized. To think it took a lunch and a quest for the best blue cheese cheeseburger to get things going. Nowadays we'll take progress any way we can get it..."<br /><span class="violet">Steve Dalton - Cender and Company</span></p>
+                            </div>
+                            <div class="tab-pane" id="B">
+                                <img src="{ASSET_PATH}/assets/img/testimonials/kelly-schwedland-75.png" title="" alt="">
+                                <p>"Having been in successful startups over the last 25 years, I believe the waters are chummed for a movement such as <strong>Startup Front</strong>..."<br /><span class="violet">Kelly Schwedland, MBA (University of Chicago Class of 2010) - American Business Dynamics</span></p>
+                            </div>
+                            <div class="tab-pane" id="C">
+                                <img src="{ASSET_PATH}/assets/img/testimonials/kevin-gould.jpg" width="75px" title="" alt="">
+                                <p>"I think <strong>Startup Front</strong> shows that this side of Chicago <cite>gets it</cite> and is not waiting for permission to use our business resources and natural beauty - beaches, hiking, biking, wineries... - in order to further establish an identity in international marketplaces..."<br /><span class="violet">Kevin Gould, avid runner & veteran banking executive</span></p>
+                            </div>
+                            <div class="tab-pane" id="D">
+                                <img src="{ASSET_PATH}/assets/img/testimonials/nat-finn.jpg" width="75px">
+                                <p>"All I know is that Kevin Gould owes me a damned blue cheese cheeseburger. The rest I'm learning on the fly..."<br /><span class="violet">Nat Finn - Finn of BakedFinn</span></p>
+                            </div>
+                        </div>
+                       <ul class="nav nav-tabs">
+                           <li class="active"><a href="#A" data-toggle="tab"></a></li>
+                           <li class=""><a href="#B" data-toggle="tab"></a></li>
+                           <li class=""><a href="#C" data-toggle="tab"></a></li>
+                           <li class=""><a href="#D" data-toggle="tab"></a></li>
+                       </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
